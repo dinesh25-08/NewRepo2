@@ -1,0 +1,51 @@
+﻿/* General styling for the navbar */
+.navbar {
+    background-color: #343a40; /* Darker shade for the background */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Styling for navbar brand */
+.navbar-brand {
+    font-family: 'Arial', sans-serif; /* Custom font */
+    font-size: 1.5rem; /* Larger font size */
+    font-weight: bold;
+    color: #ffffff; /* White color for the brand name */
+}
+
+/* Styling for navbar items */
+.navbar-nav .nav-link {
+    font-family: 'Arial', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #f8f9fa; /* Light color for links */
+    padding: 0.5rem 1rem; /* More padding */
+    border-radius: 5px; /* Rounded corners for nav items */
+}
+
+    /* Active and hover states for nav items */
+    .navbar-nav .nav-link.active,
+    .navbar-nav .nav-link:hover {
+        background-color: #495057; /* Darker gray for hover and active states */
+        color: #ffffff; /* Ensure text stays white */
+    }
+
+/* Styling for the search form */
+.navbar .form-inline .form-control {
+    width: 180px; /* Adjust width */
+    border-radius: 20px; /* Rounded corners for the search bar */
+    border: 2px solid #6c757d; /* Light border */
+}
+
+/* Styling for the search button */
+.navbar .form-inline .btn-outline-success {
+    color: #ffffff;
+    border-color: #28a745;
+    background-color: #28a745;
+    border-radius: 20px; /* Rounded corners for the button */
+}
+
+    .navbar .form-inline .btn-outline-success:hover {
+        background-color: #218838;
+        border-color: #1e7e34;
+    }
